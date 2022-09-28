@@ -2,3 +2,40 @@ body {
     background-color: grey;
     color: rgb(223, 213, 213);
 }
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img.avatar-img {
+    width: 200px;
+}
+
+header h1.big-title {
+font-size: 180px;
+text-transform: uppercase;
+}
+
+/* about */
+
+section#about {
+    height: 250px;
+    background: url(/media/intro.jpg) fixed no-repeat;
+    background-position: center;
+}
+/* weapons */
+
+section#weapons {
+    height: 250px;
+    background: url(/media/armurerie.jpg) fixed no-repeat;
+    background-position: center
+
+}
+
+
+
+
