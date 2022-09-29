@@ -1,8 +1,20 @@
 body {
     background-color: grey;
     color: rgb(223, 213, 213);
+    scroll-behavior: smooth;
 }
-
+.section.containers {
+    background-color: blue;
+    margin: 50px 20% 50px;
+    padding: 20px;
+}
+section {
+    display: table;
+    width: 100%;
+}
+ul li {
+    list-style-type: none;
+}
 /* header */
 
 header {
@@ -18,6 +30,18 @@ header img.avatar-img {
 header h1.big-title {
 font-size: 180px;
 text-transform: uppercase;
+}
+/* navbar */
+nav.navbar ul li  {
+    display: inline-block;
+}
+nav.navbar ul li a {
+    text-decoration: none;
+    color: aqua;
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
 }
 
 /* about */
@@ -35,7 +59,22 @@ section#weapons {
     background-position: center
 
 }
+.weapon-section {
+    display: flex;
+    padding: 20px;
+}
+.weapon-item img {
+width: 100px;
+margin-right: 20px;
+margin-left: 20px;
+}
 
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
 
 
 
