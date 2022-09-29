@@ -1,7 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: grey;
     color: rgb(223, 213, 213);
-    scroll-behavior: smooth;
+    
 }
 .section.containers {
     background-color: blue;
